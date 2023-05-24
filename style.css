@@ -18,30 +18,41 @@ h1 {
   font-family: "EB Garamond", serif;
   font-weight: normal;
   font-size: 48px;
+  color: #467745;
 }
 
 input {
   font-weight: medium;
   font-size: 16px;
-  max-width: 480px;
+  width: 480px;
   height: 64px;
   font-family: "Montserrat", sans-serif;
+  border: none;
+  padding: 20px;
 }
 
 textarea {
-  max-width: 480px;
+  width: 480px;
   height: 120px;
+  border: none;
+  padding: 20px;
 }
 
 textarea::placeholder {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
+input[type="checkbox"] {
+  max-width: 20px;
+  max-height: 20px;
+}
 
-.inp-check {
+label {
   font-family: "Montserrat", sans-serif;
   font-weight: medium;
+  border: none;
   font-size: 16px;
+  color: #467745;
 }
 
 button {
