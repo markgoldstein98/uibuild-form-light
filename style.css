@@ -78,3 +78,40 @@ button {
   letter-spacing: 0.2em;
   border-radius: 40px;
 }
+
+@media only screen and (max-width: 520px) {
+  body {
+    display: flex;
+    justify-self: center;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+  h1 {
+    font-size: 36px;
+    text-align: left;
+    color: #467745;
+  }
+
+  input {
+    font-size: 16px;
+    max-width: 288px;
+    max-height: 40%;
+
+    color: #467745;
+  }
+
+  textarea {
+    font-size: 16px;
+    max-width: 288px;
+    max-height: 40%;
+  }
+
+  div {
+    display: flex;
+  }
+  label {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+  }
+}
