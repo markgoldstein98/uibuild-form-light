@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  gap: 10px;
+  gap: 30px;
   background-color: #f7e4d4;
 }
 
@@ -31,6 +31,10 @@ input {
   padding: 20px;
 }
 
+input::placeholder {
+  opacity: 0.5;
+}
+
 textarea {
   width: 480px;
   height: 120px;
@@ -41,10 +45,13 @@ textarea {
 textarea::placeholder {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
+  opacity: 0.5;
 }
+
 input[type="checkbox"] {
   max-width: 20px;
   max-height: 20px;
+  margin-right: 20px;
 }
 
 label {
@@ -53,6 +60,9 @@ label {
   border: none;
   font-size: 16px;
   color: #467745;
+}
+span {
+  text-decoration: underline;
 }
 
 button {
